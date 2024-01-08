@@ -4056,9 +4056,9 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   background: rgba(216,0,15,0.8);
   border-radius: 50% 50%;
   -webkit-transform-origin: 50% -100px;
-  -webkit-animation: swing 3s infinite ease-in-out;
+  -webkit-animation: swing 5s infinite ease-in-out;
   animation: swing 3s infinite ease-in-out;
-  box-shadow: -5px 5px 50px 4px #fa6c00;
+  box-shadow: -5px 5px 30px 4px #fa6c00;
 }
 .deng-a {
   width: 100px;
@@ -4080,7 +4080,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
 }
 .xian {
   position: absolute;
-  top: -20px;
+  top: -30px;
   left: 60px;
   width: 2px;
   height: 20px;
