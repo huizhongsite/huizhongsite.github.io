@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>pdfjs</title>
+      <link href="/2024/01/11/pdfjs/"/>
+      <url>/2024/01/11/pdfjs/</url>
+      
+        <content type="html"><![CDATA[<h2 id="PDF的实现"><a href="#PDF的实现" class="headerlink" title="PDF的实现"></a>PDF的实现</h2><hr><h3 id="提升速度的决策与策略"><a href="#提升速度的决策与策略" class="headerlink" title="提升速度的决策与策略"></a>提升速度的决策与策略</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% pdf pdf.js?html=xxx.pdf %&#125;</span><br></pre></td></tr></table></figure><p><img src="https://pic.imgdb.cn/item/656fe3f1c458853aef55a669.jpg" class="lazyload placeholder" data-srcset="https://pic.imgdb.cn/item/656fe3f1c458853aef55a669.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="pic" title="hi "></p><p><img src="https://pic.imgdb.cn/item/656fe3f1c458853aef55a669.jpg" class="lazyload placeholder" data-srcset="https://pic.imgdb.cn/item/656fe3f1c458853aef55a669.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="blockchain" title="区块链"></p><p><a href="https://huizhonggroup.github.io/">汇众集团</a><br><a href="https://huizhongpower.github.io/">汇众电源</a></p><p><a href="http://www.huizhong.com.cn" target="_blank">官网链接</a><br>汇众官网</p><ul><li>汇众电源</li><li>汇众集团</li><li>汇众基地</li></ul><ul><li>汇众电源</li><li>汇众集团</li><li>汇众基地</li></ul><ol><li>汇众电源</li><li>汇众集团</li><li>汇众基地</li></ol><p>联系方式：</p><table><thead><tr><th>联系人</th><th>联系电话</th><th>联系地址</th></tr></thead><tbody><tr><td>张三</td><td>123</td><td>北京市</td></tr><tr><td>李四</td><td>234</td><td>南京市</td></tr><tr><td>王五</td><td>345</td><td>上海市</td></tr></tbody></table><p><code>hale new page</code> </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">lscpu</span><br><span class="line">ls /proc/cpuinfo</span><br><span class="line">du -sh </span><br><span class="line"></span><br></pre></td></tr></table></figure><h5 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">flow</span><br><span class="line">st=&gt;start: 开始</span><br><span class="line">op=&gt;operation: My Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">e=&gt;end</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br><span class="line">&amp;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>gallery</title>
       <link href="/2024/01/10/gallery/"/>
       <url>/2024/01/10/gallery/</url>
@@ -34,7 +47,7 @@
       <link href="/2023/12/14/network/"/>
       <url>/2023/12/14/network/</url>
       
-        <content type="html"><![CDATA[<h2 class="bamboo-h " id="video5le4f1kuykc">video</h2><br/><p>100%宽度</p><div class="video"><video controls preload><source src='https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>]]></content>
+        <content type="html"><![CDATA[<h2 class="bamboo-h " id="video2hdxrfdasog">video</h2><br/><p>100%宽度</p><div class="video"><video controls preload><source src='https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>]]></content>
       
       
       
