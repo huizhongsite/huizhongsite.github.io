@@ -600,7 +600,58 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        
+        <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">%% 时序图例子,-&gt; 直线，--&gt;虚线，-&gt;&gt;实线箭头</span><br><span class="line">  sequenceDiagram</span><br><span class="line">    participant 张三</span><br><span class="line">    participant 李四</span><br><span class="line">    张三-&gt;王五: 王五你好吗？</span><br><span class="line">    loop 健康检查</span><br><span class="line">        王五-&gt;王五: 与疾病战斗</span><br><span class="line">    end</span><br><span class="line">    Note right of 王五: 合理 食物 &lt;br/&gt;看医生...</span><br><span class="line">    李四--&gt;&gt;张三: 很好!</span><br><span class="line">    王五-&gt;李四: 你怎么样?</span><br><span class="line">    李四--&gt;王五: 很好!</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">graph LR</span><br><span class="line">A[方形] --&gt;B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件a&#125;</span><br><span class="line">    C --&gt;|a=1| D[结果1]</span><br><span class="line">    C --&gt;|a=2| E[结果2]</span><br><span class="line">    F[横向流程图]</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">……流程图代码……</span><br></pre></td></tr></table></figure>
+<p>graph TB<br>    A(开始)<br>    B[打开冰箱门]<br>    C{“冰箱小不小？”}<br>    D((连接))</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">graph TB</span><br><span class="line">    Start(开始) --&gt; Open[打开冰箱门]</span><br><span class="line">    Open --&gt; Put[把大象放进去]</span><br><span class="line">    Put[把大象放进去] --&gt; IsFit&#123;&quot;冰箱小不小？&quot;&#125;</span><br><span class="line">    </span><br><span class="line">    IsFit --&gt;|不小| Close[把冰箱门关上]</span><br><span class="line">    Close --&gt; End(结束)</span><br><span class="line">        </span><br><span class="line">    IsFit --&gt;|小| Change[换个大冰箱]</span><br><span class="line">    Change --&gt; Open</span><br></pre></td></tr></table></figure>
+
+<p>​~~~mermaid<br>graph TD<br>A –&gt; B<br>​~~~</p>
+<pre><code class="flow">st=&gt;start: 开始
+op=&gt;operation: My Operation
+cond=&gt;condition: Yes or No?
+e=&gt;end
+st-&gt;op-&gt;cond
+cond(yes)-&gt;e
+cond(no)-&gt;op
+&amp;```
+
+~~~mermaid
+graph LR
+    A --&gt; B
+​~~~
+
+~~~mermaid
+graph TD
+    a1[带文本矩形]
+    a2(带文本圆角矩形)
+    a3&gt;带文本不对称矩形]
+    b1&#123;带文本菱形&#125;
+    c1((带文本圆形))
+​~~~
+
+
+​~~~mermaid
+graph LR
+    A10[A10] --- A11[A11]
+    A20[A20] === A21[A21]
+    A30[A30] -.- A31[A31]
+    B10[B10] --&gt; B11[B11]
+    B20[B20] ==&gt; B21[B21]
+    B30[B30] -.-&gt; B31[B31]
+    C10[C10] --yes--&gt; C11[C11]
+    C20[C20] ==yes==&gt; C21[C21]
+    C30[C30] -.yes.-&gt; C31[C31]
+​~~~
+
+
+
+
+</code></pre>
+
       </div>
       <div class="post-tags-categories">
         
@@ -928,7 +979,7 @@
       
         <div class="webinfo-item">
           <div>本站总字数：</div>
-          <div>234 字</div>
+          <div>292 字</div>
         </div>
       
 
@@ -954,7 +1005,7 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Thu Jan 11 2024 10:44:19 GMT+0800 (北美中部标准时间)</div>
+            <div id="last-update" style="display: none;">Thu Jan 11 2024 11:54:10 GMT+0800 (北美中部标准时间)</div>
             <div id="last-update-show">2024-01-11 日</div>
           
         </div>
